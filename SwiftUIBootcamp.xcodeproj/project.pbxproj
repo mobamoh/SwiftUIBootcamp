@@ -13,6 +13,7 @@
 		EB3B662D2E4F9AE300AC962B /* ShapesModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B66242E4F9AE300AC962B /* ShapesModule.swift */; };
 		EB3B662E2E4F9AE300AC962B /* TextModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B66262E4F9AE300AC962B /* TextModule.swift */; };
 		EB3B662F2E4F9AE300AC962B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3B66282E4F9AE300AC962B /* Assets.xcassets */; };
+		EB3B66322E4FA01D00AC962B /* StacksModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B66312E4FA01D00AC962B /* StacksModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EB3B66242E4F9AE300AC962B /* ShapesModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesModule.swift; sourceTree = "<group>"; };
 		EB3B66262E4F9AE300AC962B /* TextModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModule.swift; sourceTree = "<group>"; };
 		EB3B66282E4F9AE300AC962B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB3B66312E4FA01D00AC962B /* StacksModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +102,18 @@
 				EB3B66272E4F9AE300AC962B /* Text */,
 				EB3B66252E4F9AE300AC962B /* Shapes */,
 				EB3B66212E4F9AE300AC962B /* Images */,
+				EB3B66302E4FA00B00AC962B /* Stacks */,
 				EB3B66282E4F9AE300AC962B /* Assets.xcassets */,
 			);
 			path = SwiftUIBootcamp;
+			sourceTree = "<group>";
+		};
+		EB3B66302E4FA00B00AC962B /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				EB3B66312E4FA01D00AC962B /* StacksModule.swift */,
+			);
+			path = Stacks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB3B66322E4FA01D00AC962B /* StacksModule.swift in Sources */,
 				EB3B662A2E4F9AE300AC962B /* SwiftUIBootcampApp.swift in Sources */,
 				EB3B662B2E4F9AE300AC962B /* ImagesModule.swift in Sources */,
 				EB3B662C2E4F9AE300AC962B /* ContentView.swift in Sources */,

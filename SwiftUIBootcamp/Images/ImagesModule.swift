@@ -21,6 +21,13 @@ struct ImagesModule: View {
             .frame(width: 300,height: 300)
             .scaledToFit()
             .cornerRadius(50)
+        
+        Image(.cutePretzel)
+            .resizable()
+            .frame(width: 100,height: 100)
+            .scaledToFill()
+            .clipShape(Circle())
+//            .cornerRadius(50)
 
     }
 }
