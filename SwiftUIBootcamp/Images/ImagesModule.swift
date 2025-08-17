@@ -9,25 +9,25 @@ import SwiftUI
 
 struct ImagesModule: View {
     var body: some View {
-        
+
         Image(systemName: "heart.circle.fill")
             .resizable()
             .foregroundColor(.brown)
-            .frame(width: 100,height: 100)
+            .frame(width: 100, height: 100)
             .scaledToFit()
-        
+
         Image(.cuteSolarSystemLight)
             .resizable()
-            .frame(width: 300,height: 300)
+            .frame(width: 300, height: 300)
             .scaledToFit()
             .cornerRadius(50)
-        
+
         Image(.cutePretzel)
             .resizable()
-            .frame(width: 100,height: 100)
+            .frame(width: 100, height: 100)
             .scaledToFill()
             .clipShape(Circle())
-//            .cornerRadius(50)
+        //            .cornerRadius(50)
 
     }
 }
