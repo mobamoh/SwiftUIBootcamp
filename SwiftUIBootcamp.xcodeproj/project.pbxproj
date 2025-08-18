@@ -14,6 +14,11 @@
 		EB3B662E2E4F9AE300AC962B /* TextModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B66262E4F9AE300AC962B /* TextModule.swift */; };
 		EB3B662F2E4F9AE300AC962B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3B66282E4F9AE300AC962B /* Assets.xcassets */; };
 		EB3B66322E4FA01D00AC962B /* StacksModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B66312E4FA01D00AC962B /* StacksModule.swift */; };
+		EB50F8C32E533B1E0000D766 /* UberEatChallengeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50F8C22E533B1E0000D766 /* UberEatChallengeModule.swift */; };
+		EB50F8C52E534CC20000D766 /* LoopsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50F8C42E534CC20000D766 /* LoopsModule.swift */; };
+		EB50F8C82E534FF00000D766 /* VerticalScrollModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50F8C72E534FF00000D766 /* VerticalScrollModule.swift */; };
+		EB50F8CA2E5350040000D766 /* HorizontalScrollModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50F8C92E5350040000D766 /* HorizontalScrollModule.swift */; };
+		EB50F8CC2E53648A0000D766 /* GridsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50F8CB2E53648A0000D766 /* GridsModule.swift */; };
 		EBEEF9F02E51F56C00B643D1 /* StacksChallengeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEEF9EF2E51F56C00B643D1 /* StacksChallengeModule.swift */; };
 		EBEEF9F32E520FA200B643D1 /* PaddingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEEF9F22E520FA200B643D1 /* PaddingModule.swift */; };
 		EBEEF9F62E52160D00B643D1 /* SpacerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEEF9F52E52160D00B643D1 /* SpacerModule.swift */; };
@@ -28,6 +33,11 @@
 		EB3B66262E4F9AE300AC962B /* TextModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModule.swift; sourceTree = "<group>"; };
 		EB3B66282E4F9AE300AC962B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB3B66312E4FA01D00AC962B /* StacksModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksModule.swift; sourceTree = "<group>"; };
+		EB50F8C22E533B1E0000D766 /* UberEatChallengeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberEatChallengeModule.swift; sourceTree = "<group>"; };
+		EB50F8C42E534CC20000D766 /* LoopsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsModule.swift; sourceTree = "<group>"; };
+		EB50F8C72E534FF00000D766 /* VerticalScrollModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollModule.swift; sourceTree = "<group>"; };
+		EB50F8C92E5350040000D766 /* HorizontalScrollModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollModule.swift; sourceTree = "<group>"; };
+		EB50F8CB2E53648A0000D766 /* GridsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsModule.swift; sourceTree = "<group>"; };
 		EBEEF9EF2E51F56C00B643D1 /* StacksChallengeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksChallengeModule.swift; sourceTree = "<group>"; };
 		EBEEF9F22E520FA200B643D1 /* PaddingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModule.swift; sourceTree = "<group>"; };
 		EBEEF9F52E52160D00B643D1 /* SpacerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerModule.swift; sourceTree = "<group>"; };
@@ -111,6 +121,9 @@
 				EB3B66302E4FA00B00AC962B /* Stacks */,
 				EBEEF9F12E520F8A00B643D1 /* Padding */,
 				EBEEF9F42E5215E500B643D1 /* Spacer */,
+				EB50F8C02E533ACC0000D766 /* Loops */,
+				EB50F8C12E533AD80000D766 /* ScrollViews */,
+				EB50F8C62E534FC10000D766 /* Grids */,
 				EB3B66282E4F9AE300AC962B /* Assets.xcassets */,
 			);
 			path = SwiftUIBootcamp;
@@ -123,6 +136,32 @@
 				EBEEF9EF2E51F56C00B643D1 /* StacksChallengeModule.swift */,
 			);
 			path = Stacks;
+			sourceTree = "<group>";
+		};
+		EB50F8C02E533ACC0000D766 /* Loops */ = {
+			isa = PBXGroup;
+			children = (
+				EB50F8C42E534CC20000D766 /* LoopsModule.swift */,
+			);
+			path = Loops;
+			sourceTree = "<group>";
+		};
+		EB50F8C12E533AD80000D766 /* ScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				EB50F8C22E533B1E0000D766 /* UberEatChallengeModule.swift */,
+				EB50F8C72E534FF00000D766 /* VerticalScrollModule.swift */,
+				EB50F8C92E5350040000D766 /* HorizontalScrollModule.swift */,
+			);
+			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+		EB50F8C62E534FC10000D766 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				EB50F8CB2E53648A0000D766 /* GridsModule.swift */,
+			);
+			path = Grids;
 			sourceTree = "<group>";
 		};
 		EBEEF9F12E520F8A00B643D1 /* Padding */ = {
@@ -213,15 +252,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB50F8C32E533B1E0000D766 /* UberEatChallengeModule.swift in Sources */,
+				EB50F8C52E534CC20000D766 /* LoopsModule.swift in Sources */,
 				EBEEF9F02E51F56C00B643D1 /* StacksChallengeModule.swift in Sources */,
 				EB3B66322E4FA01D00AC962B /* StacksModule.swift in Sources */,
+				EB50F8C82E534FF00000D766 /* VerticalScrollModule.swift in Sources */,
 				EBEEF9F62E52160D00B643D1 /* SpacerModule.swift in Sources */,
 				EB3B662A2E4F9AE300AC962B /* SwiftUIBootcampApp.swift in Sources */,
 				EBEEF9F32E520FA200B643D1 /* PaddingModule.swift in Sources */,
 				EB3B662B2E4F9AE300AC962B /* ImagesModule.swift in Sources */,
+				EB50F8CC2E53648A0000D766 /* GridsModule.swift in Sources */,
 				EB3B662C2E4F9AE300AC962B /* ContentView.swift in Sources */,
 				EB3B662D2E4F9AE300AC962B /* ShapesModule.swift in Sources */,
 				EB3B662E2E4F9AE300AC962B /* TextModule.swift in Sources */,
+				EB50F8CA2E5350040000D766 /* HorizontalScrollModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

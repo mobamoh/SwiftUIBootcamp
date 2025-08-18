@@ -20,7 +20,7 @@ struct SpacerModule: View {
             HStack {
                 Text("Horizontal Spacing")
                 Spacer()
-                    .frame(height: 20)
+                    .frame(height: 20) 
                     .background(.blue)
                 Text("Horizontal Spacing")
             }
