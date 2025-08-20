@@ -22,6 +22,11 @@
 		EB50F8C82E534FF00000D766 /* VerticalScrollModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50F8C72E534FF00000D766 /* VerticalScrollModule.swift */; };
 		EB50F8CA2E5350040000D766 /* HorizontalScrollModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50F8C92E5350040000D766 /* HorizontalScrollModule.swift */; };
 		EB50F8CC2E53648A0000D766 /* GridsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50F8CB2E53648A0000D766 /* GridsModule.swift */; };
+		EBD31ACD2E55EFAE0046306C /* ViewExtractionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD31ACC2E55EFAE0046306C /* ViewExtractionModule.swift */; };
+		EBD31AD02E55EFDB0046306C /* DataModelingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD31ACF2E55EFDB0046306C /* DataModelingModule.swift */; };
+		EBD31AD32E55EFFD0046306C /* TextFieldsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD31AD22E55EFFD0046306C /* TextFieldsModule.swift */; };
+		EBD31AD52E55F58D0046306C /* CuteMascot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD31AD42E55F57A0046306C /* CuteMascot.swift */; };
+		EBD31AD72E55F8510046306C /* CuteMascotComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD31AD62E55F8510046306C /* CuteMascotComponent.swift */; };
 		EBEEF9F02E51F56C00B643D1 /* StacksChallengeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEEF9EF2E51F56C00B643D1 /* StacksChallengeModule.swift */; };
 		EBEEF9F32E520FA200B643D1 /* PaddingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEEF9F22E520FA200B643D1 /* PaddingModule.swift */; };
 		EBEEF9F62E52160D00B643D1 /* SpacerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEEF9F52E52160D00B643D1 /* SpacerModule.swift */; };
@@ -44,6 +49,11 @@
 		EB50F8C72E534FF00000D766 /* VerticalScrollModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollModule.swift; sourceTree = "<group>"; };
 		EB50F8C92E5350040000D766 /* HorizontalScrollModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollModule.swift; sourceTree = "<group>"; };
 		EB50F8CB2E53648A0000D766 /* GridsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsModule.swift; sourceTree = "<group>"; };
+		EBD31ACC2E55EFAE0046306C /* ViewExtractionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtractionModule.swift; sourceTree = "<group>"; };
+		EBD31ACF2E55EFDB0046306C /* DataModelingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelingModule.swift; sourceTree = "<group>"; };
+		EBD31AD22E55EFFD0046306C /* TextFieldsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsModule.swift; sourceTree = "<group>"; };
+		EBD31AD42E55F57A0046306C /* CuteMascot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuteMascot.swift; sourceTree = "<group>"; };
+		EBD31AD62E55F8510046306C /* CuteMascotComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuteMascotComponent.swift; sourceTree = "<group>"; };
 		EBEEF9EF2E51F56C00B643D1 /* StacksChallengeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksChallengeModule.swift; sourceTree = "<group>"; };
 		EBEEF9F22E520FA200B643D1 /* PaddingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModule.swift; sourceTree = "<group>"; };
 		EBEEF9F52E52160D00B643D1 /* SpacerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerModule.swift; sourceTree = "<group>"; };
@@ -133,6 +143,9 @@
 				EB49DEE42E54C4E00046A833 /* Lists */,
 				EB49DEE52E54C4EB0046A833 /* Buttons */,
 				EB49DEE62E54C5050046A833 /* ControlFlow */,
+				EBD31ACB2E55EF8D0046306C /* ViewExtraction */,
+				EBD31ACE2E55EFB80046306C /* DataModeling */,
+				EBD31AD12E55EFE00046306C /* TextFields */,
 				EB3B66282E4F9AE300AC962B /* Assets.xcassets */,
 			);
 			path = SwiftUIBootcamp;
@@ -195,6 +208,32 @@
 				EB50F8CB2E53648A0000D766 /* GridsModule.swift */,
 			);
 			path = Grids;
+			sourceTree = "<group>";
+		};
+		EBD31ACB2E55EF8D0046306C /* ViewExtraction */ = {
+			isa = PBXGroup;
+			children = (
+				EBD31ACC2E55EFAE0046306C /* ViewExtractionModule.swift */,
+			);
+			path = ViewExtraction;
+			sourceTree = "<group>";
+		};
+		EBD31ACE2E55EFB80046306C /* DataModeling */ = {
+			isa = PBXGroup;
+			children = (
+				EBD31AD42E55F57A0046306C /* CuteMascot.swift */,
+				EBD31ACF2E55EFDB0046306C /* DataModelingModule.swift */,
+				EBD31AD62E55F8510046306C /* CuteMascotComponent.swift */,
+			);
+			path = DataModeling;
+			sourceTree = "<group>";
+		};
+		EBD31AD12E55EFE00046306C /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				EBD31AD22E55EFFD0046306C /* TextFieldsModule.swift */,
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 		EBEEF9F12E520F8A00B643D1 /* Padding */ = {
@@ -286,6 +325,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB49DEE82E54C5210046A833 /* ListsModule.swift in Sources */,
+				EBD31ACD2E55EFAE0046306C /* ViewExtractionModule.swift in Sources */,
+				EBD31AD02E55EFDB0046306C /* DataModelingModule.swift in Sources */,
+				EBD31AD32E55EFFD0046306C /* TextFieldsModule.swift in Sources */,
 				EB50F8C32E533B1E0000D766 /* UberEatChallengeModule.swift in Sources */,
 				EB50F8C52E534CC20000D766 /* LoopsModule.swift in Sources */,
 				EB49DEEA2E54CBD00046A833 /* ButtonsModule.swift in Sources */,
@@ -301,7 +343,9 @@
 				EB3B662C2E4F9AE300AC962B /* ContentView.swift in Sources */,
 				EB3B662D2E4F9AE300AC962B /* ShapesModule.swift in Sources */,
 				EB3B662E2E4F9AE300AC962B /* TextModule.swift in Sources */,
+				EBD31AD72E55F8510046306C /* CuteMascotComponent.swift in Sources */,
 				EB50F8CA2E5350040000D766 /* HorizontalScrollModule.swift in Sources */,
+				EBD31AD52E55F58D0046306C /* CuteMascot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
