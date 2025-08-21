@@ -14,6 +14,8 @@
 		EB3B662E2E4F9AE300AC962B /* TextModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B66262E4F9AE300AC962B /* TextModule.swift */; };
 		EB3B662F2E4F9AE300AC962B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3B66282E4F9AE300AC962B /* Assets.xcassets */; };
 		EB3B66322E4FA01D00AC962B /* StacksModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B66312E4FA01D00AC962B /* StacksModule.swift */; };
+		EB4046C22E57277A00280D1A /* BindingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4046C12E57277A00280D1A /* BindingModule.swift */; };
+		EB4046C52E57373700280D1A /* SheetsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4046C42E57373700280D1A /* SheetsModule.swift */; };
 		EB49DEE82E54C5210046A833 /* ListsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49DEE72E54C5210046A833 /* ListsModule.swift */; };
 		EB49DEEA2E54CBD00046A833 /* ButtonsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49DEE92E54CBD00046A833 /* ButtonsModule.swift */; };
 		EB49DEEC2E54D1EE0046A833 /* ControlFlowModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49DEEB2E54D1EE0046A833 /* ControlFlowModule.swift */; };
@@ -41,6 +43,8 @@
 		EB3B66262E4F9AE300AC962B /* TextModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModule.swift; sourceTree = "<group>"; };
 		EB3B66282E4F9AE300AC962B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB3B66312E4FA01D00AC962B /* StacksModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksModule.swift; sourceTree = "<group>"; };
+		EB4046C12E57277A00280D1A /* BindingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingModule.swift; sourceTree = "<group>"; };
+		EB4046C42E57373700280D1A /* SheetsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsModule.swift; sourceTree = "<group>"; };
 		EB49DEE72E54C5210046A833 /* ListsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsModule.swift; sourceTree = "<group>"; };
 		EB49DEE92E54CBD00046A833 /* ButtonsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsModule.swift; sourceTree = "<group>"; };
 		EB49DEEB2E54D1EE0046A833 /* ControlFlowModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowModule.swift; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 				EBD31ACB2E55EF8D0046306C /* ViewExtraction */,
 				EBD31ACE2E55EFB80046306C /* DataModeling */,
 				EBD31AD12E55EFE00046306C /* TextFields */,
+				EB4046C02E57276800280D1A /* Binding */,
+				EB4046C32E5736F400280D1A /* Sheets */,
 				EB3B66282E4F9AE300AC962B /* Assets.xcassets */,
 			);
 			path = SwiftUIBootcamp;
@@ -158,6 +164,22 @@
 				EBEEF9EF2E51F56C00B643D1 /* StacksChallengeModule.swift */,
 			);
 			path = Stacks;
+			sourceTree = "<group>";
+		};
+		EB4046C02E57276800280D1A /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				EB4046C12E57277A00280D1A /* BindingModule.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		EB4046C32E5736F400280D1A /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				EB4046C42E57373700280D1A /* SheetsModule.swift */,
+			);
+			path = Sheets;
 			sourceTree = "<group>";
 		};
 		EB49DEE42E54C4E00046A833 /* Lists */ = {
@@ -326,6 +348,7 @@
 			files = (
 				EB49DEE82E54C5210046A833 /* ListsModule.swift in Sources */,
 				EBD31ACD2E55EFAE0046306C /* ViewExtractionModule.swift in Sources */,
+				EB4046C22E57277A00280D1A /* BindingModule.swift in Sources */,
 				EBD31AD02E55EFDB0046306C /* DataModelingModule.swift in Sources */,
 				EBD31AD32E55EFFD0046306C /* TextFieldsModule.swift in Sources */,
 				EB50F8C32E533B1E0000D766 /* UberEatChallengeModule.swift in Sources */,
@@ -346,6 +369,7 @@
 				EBD31AD72E55F8510046306C /* CuteMascotComponent.swift in Sources */,
 				EB50F8CA2E5350040000D766 /* HorizontalScrollModule.swift in Sources */,
 				EBD31AD52E55F58D0046306C /* CuteMascot.swift in Sources */,
+				EB4046C52E57373700280D1A /* SheetsModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
