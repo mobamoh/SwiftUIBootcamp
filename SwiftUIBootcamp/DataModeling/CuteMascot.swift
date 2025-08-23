@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct CuteMascot: Identifiable {
+struct CuteMascot: Identifiable, Hashable {
     var id = NSUUID().uuidString
     let name: String
     let image: ImageResource
