@@ -26,6 +26,8 @@
 		EB50F8CC2E53648A0000D766 /* GridsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB50F8CB2E53648A0000D766 /* GridsModule.swift */; };
 		EB893C662E59C51F00D7A35D /* NavigationStacksModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB893C652E59C51F00D7A35D /* NavigationStacksModule.swift */; };
 		EB893C682E59C9B000D7A35D /* DisplayNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB893C672E59C9B000D7A35D /* DisplayNameView.swift */; };
+		EB893C6B2E5A120E00D7A35D /* TabViewsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB893C6A2E5A120E00D7A35D /* TabViewsModule.swift */; };
+		EB893C6E2E5C9F7700D7A35D /* MVVMModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB893C6D2E5C9F7700D7A35D /* MVVMModule.swift */; };
 		EBD31ACD2E55EFAE0046306C /* ViewExtractionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD31ACC2E55EFAE0046306C /* ViewExtractionModule.swift */; };
 		EBD31AD02E55EFDB0046306C /* DataModelingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD31ACF2E55EFDB0046306C /* DataModelingModule.swift */; };
 		EBD31AD32E55EFFD0046306C /* TextFieldsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD31AD22E55EFFD0046306C /* TextFieldsModule.swift */; };
@@ -57,6 +59,8 @@
 		EB50F8CB2E53648A0000D766 /* GridsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsModule.swift; sourceTree = "<group>"; };
 		EB893C652E59C51F00D7A35D /* NavigationStacksModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStacksModule.swift; sourceTree = "<group>"; };
 		EB893C672E59C9B000D7A35D /* DisplayNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNameView.swift; sourceTree = "<group>"; };
+		EB893C6A2E5A120E00D7A35D /* TabViewsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewsModule.swift; sourceTree = "<group>"; };
+		EB893C6D2E5C9F7700D7A35D /* MVVMModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMModule.swift; sourceTree = "<group>"; };
 		EBD31ACC2E55EFAE0046306C /* ViewExtractionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtractionModule.swift; sourceTree = "<group>"; };
 		EBD31ACF2E55EFDB0046306C /* DataModelingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelingModule.swift; sourceTree = "<group>"; };
 		EBD31AD22E55EFFD0046306C /* TextFieldsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsModule.swift; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 				EB4046C02E57276800280D1A /* Binding */,
 				EB4046C32E5736F400280D1A /* Sheets */,
 				EB893C642E59C4F900D7A35D /* NavigationStacks */,
+				EB893C692E5A11EE00D7A35D /* TabViews */,
+				EB893C6C2E5C9EAF00D7A35D /* MVVM */,
 				EB3B66282E4F9AE300AC962B /* Assets.xcassets */,
 			);
 			path = SwiftUIBootcamp;
@@ -244,6 +250,22 @@
 				EB893C672E59C9B000D7A35D /* DisplayNameView.swift */,
 			);
 			path = NavigationStacks;
+			sourceTree = "<group>";
+		};
+		EB893C692E5A11EE00D7A35D /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				EB893C6A2E5A120E00D7A35D /* TabViewsModule.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		EB893C6C2E5C9EAF00D7A35D /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				EB893C6D2E5C9F7700D7A35D /* MVVMModule.swift */,
+			);
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 		EBD31ACB2E55EF8D0046306C /* ViewExtraction */ = {
@@ -367,6 +389,7 @@
 				EBD31AD02E55EFDB0046306C /* DataModelingModule.swift in Sources */,
 				EBD31AD32E55EFFD0046306C /* TextFieldsModule.swift in Sources */,
 				EB50F8C32E533B1E0000D766 /* UberEatChallengeModule.swift in Sources */,
+				EB893C6E2E5C9F7700D7A35D /* MVVMModule.swift in Sources */,
 				EB50F8C52E534CC20000D766 /* LoopsModule.swift in Sources */,
 				EB49DEEA2E54CBD00046A833 /* ButtonsModule.swift in Sources */,
 				EBEEF9F02E51F56C00B643D1 /* StacksChallengeModule.swift in Sources */,
@@ -383,6 +406,7 @@
 				EB3B662E2E4F9AE300AC962B /* TextModule.swift in Sources */,
 				EBD31AD72E55F8510046306C /* CuteMascotComponent.swift in Sources */,
 				EB893C662E59C51F00D7A35D /* NavigationStacksModule.swift in Sources */,
+				EB893C6B2E5A120E00D7A35D /* TabViewsModule.swift in Sources */,
 				EB50F8CA2E5350040000D766 /* HorizontalScrollModule.swift in Sources */,
 				EBD31AD52E55F58D0046306C /* CuteMascot.swift in Sources */,
 				EB4046C52E57373700280D1A /* SheetsModule.swift in Sources */,
