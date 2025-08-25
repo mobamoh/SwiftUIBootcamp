@@ -98,216 +98,216 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EB3B661F2E4F9AE300AC962B /* App */ = {
+		EB3B661F2E4F9AE300AC962B /* 00-App */ = {
 			isa = PBXGroup;
 			children = (
 				EB3B661E2E4F9AE300AC962B /* SwiftUIBootcampApp.swift */,
 			);
-			path = App;
+			path = "00-App";
 			sourceTree = "<group>";
 		};
-		EB3B66212E4F9AE300AC962B /* Images */ = {
+		EB3B66212E4F9AE300AC962B /* 04-Images */ = {
 			isa = PBXGroup;
 			children = (
 				EB3B66202E4F9AE300AC962B /* ImagesModule.swift */,
 			);
-			path = Images;
+			path = "04-Images";
 			sourceTree = "<group>";
 		};
-		EB3B66232E4F9AE300AC962B /* Root */ = {
+		EB3B66232E4F9AE300AC962B /* 01-Root */ = {
 			isa = PBXGroup;
 			children = (
 				EB3B66222E4F9AE300AC962B /* ContentView.swift */,
 			);
-			path = Root;
+			path = "01-Root";
 			sourceTree = "<group>";
 		};
-		EB3B66252E4F9AE300AC962B /* Shapes */ = {
+		EB3B66252E4F9AE300AC962B /* 03-Shapes */ = {
 			isa = PBXGroup;
 			children = (
 				EB3B66242E4F9AE300AC962B /* ShapesModule.swift */,
 			);
-			path = Shapes;
+			path = "03-Shapes";
 			sourceTree = "<group>";
 		};
-		EB3B66272E4F9AE300AC962B /* Text */ = {
+		EB3B66272E4F9AE300AC962B /* 02-Text */ = {
 			isa = PBXGroup;
 			children = (
 				EB3B66262E4F9AE300AC962B /* TextModule.swift */,
 			);
-			path = Text;
+			path = "02-Text";
 			sourceTree = "<group>";
 		};
 		EB3B66292E4F9AE300AC962B /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				EB3B661F2E4F9AE300AC962B /* App */,
-				EB3B66232E4F9AE300AC962B /* Root */,
-				EB3B66272E4F9AE300AC962B /* Text */,
-				EB3B66252E4F9AE300AC962B /* Shapes */,
-				EB3B66212E4F9AE300AC962B /* Images */,
-				EB3B66302E4FA00B00AC962B /* Stacks */,
-				EBEEF9F12E520F8A00B643D1 /* Padding */,
-				EBEEF9F42E5215E500B643D1 /* Spacer */,
-				EB50F8C02E533ACC0000D766 /* Loops */,
-				EB50F8C12E533AD80000D766 /* ScrollViews */,
-				EB50F8C62E534FC10000D766 /* Grids */,
-				EB49DEE42E54C4E00046A833 /* Lists */,
-				EB49DEE52E54C4EB0046A833 /* Buttons */,
-				EB49DEE62E54C5050046A833 /* ControlFlow */,
-				EBD31ACB2E55EF8D0046306C /* ViewExtraction */,
-				EBD31ACE2E55EFB80046306C /* DataModeling */,
-				EBD31AD12E55EFE00046306C /* TextFields */,
-				EB4046C02E57276800280D1A /* Binding */,
-				EB4046C32E5736F400280D1A /* Sheets */,
-				EB893C642E59C4F900D7A35D /* NavigationStacks */,
-				EB893C692E5A11EE00D7A35D /* TabViews */,
-				EB893C6C2E5C9EAF00D7A35D /* MVVM */,
+				EB3B661F2E4F9AE300AC962B /* 00-App */,
+				EB3B66232E4F9AE300AC962B /* 01-Root */,
+				EB3B66272E4F9AE300AC962B /* 02-Text */,
+				EB3B66252E4F9AE300AC962B /* 03-Shapes */,
+				EB3B66212E4F9AE300AC962B /* 04-Images */,
+				EB3B66302E4FA00B00AC962B /* 05-Stacks */,
+				EBEEF9F12E520F8A00B643D1 /* 06-Padding */,
+				EBEEF9F42E5215E500B643D1 /* 07-Spacer */,
+				EB50F8C02E533ACC0000D766 /* 08-Loops */,
+				EB50F8C12E533AD80000D766 /* 09-ScrollViews */,
+				EB50F8C62E534FC10000D766 /* 10-Grids */,
+				EB49DEE42E54C4E00046A833 /* 11-Lists */,
+				EB49DEE52E54C4EB0046A833 /* 12-Buttons */,
+				EB49DEE62E54C5050046A833 /* 13-ControlFlow */,
+				EBD31ACB2E55EF8D0046306C /* 14-ViewExtraction */,
+				EBD31ACE2E55EFB80046306C /* 15-DataModeling */,
+				EBD31AD12E55EFE00046306C /* 16-TextFields */,
+				EB4046C02E57276800280D1A /* 17-Binding */,
+				EB4046C32E5736F400280D1A /* 18-Sheets */,
+				EB893C642E59C4F900D7A35D /* 19-NavigationStacks */,
+				EB893C692E5A11EE00D7A35D /* 20-TabViews */,
+				EB893C6C2E5C9EAF00D7A35D /* 21-MVVM */,
 				EB3B66282E4F9AE300AC962B /* Assets.xcassets */,
 			);
 			path = SwiftUIBootcamp;
 			sourceTree = "<group>";
 		};
-		EB3B66302E4FA00B00AC962B /* Stacks */ = {
+		EB3B66302E4FA00B00AC962B /* 05-Stacks */ = {
 			isa = PBXGroup;
 			children = (
 				EB3B66312E4FA01D00AC962B /* StacksModule.swift */,
 				EBEEF9EF2E51F56C00B643D1 /* StacksChallengeModule.swift */,
 			);
-			path = Stacks;
+			path = "05-Stacks";
 			sourceTree = "<group>";
 		};
-		EB4046C02E57276800280D1A /* Binding */ = {
+		EB4046C02E57276800280D1A /* 17-Binding */ = {
 			isa = PBXGroup;
 			children = (
 				EB4046C12E57277A00280D1A /* BindingModule.swift */,
 			);
-			path = Binding;
+			path = "17-Binding";
 			sourceTree = "<group>";
 		};
-		EB4046C32E5736F400280D1A /* Sheets */ = {
+		EB4046C32E5736F400280D1A /* 18-Sheets */ = {
 			isa = PBXGroup;
 			children = (
 				EB4046C42E57373700280D1A /* SheetsModule.swift */,
 			);
-			path = Sheets;
+			path = "18-Sheets";
 			sourceTree = "<group>";
 		};
-		EB49DEE42E54C4E00046A833 /* Lists */ = {
+		EB49DEE42E54C4E00046A833 /* 11-Lists */ = {
 			isa = PBXGroup;
 			children = (
 				EB49DEE72E54C5210046A833 /* ListsModule.swift */,
 			);
-			path = Lists;
+			path = "11-Lists";
 			sourceTree = "<group>";
 		};
-		EB49DEE52E54C4EB0046A833 /* Buttons */ = {
+		EB49DEE52E54C4EB0046A833 /* 12-Buttons */ = {
 			isa = PBXGroup;
 			children = (
 				EB49DEE92E54CBD00046A833 /* ButtonsModule.swift */,
 			);
-			path = Buttons;
+			path = "12-Buttons";
 			sourceTree = "<group>";
 		};
-		EB49DEE62E54C5050046A833 /* ControlFlow */ = {
+		EB49DEE62E54C5050046A833 /* 13-ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
 				EB49DEEB2E54D1EE0046A833 /* ControlFlowModule.swift */,
 			);
-			path = ControlFlow;
+			path = "13-ControlFlow";
 			sourceTree = "<group>";
 		};
-		EB50F8C02E533ACC0000D766 /* Loops */ = {
+		EB50F8C02E533ACC0000D766 /* 08-Loops */ = {
 			isa = PBXGroup;
 			children = (
 				EB50F8C42E534CC20000D766 /* LoopsModule.swift */,
 			);
-			path = Loops;
+			path = "08-Loops";
 			sourceTree = "<group>";
 		};
-		EB50F8C12E533AD80000D766 /* ScrollViews */ = {
+		EB50F8C12E533AD80000D766 /* 09-ScrollViews */ = {
 			isa = PBXGroup;
 			children = (
 				EB50F8C22E533B1E0000D766 /* UberEatChallengeModule.swift */,
 				EB50F8C72E534FF00000D766 /* VerticalScrollModule.swift */,
 				EB50F8C92E5350040000D766 /* HorizontalScrollModule.swift */,
 			);
-			path = ScrollViews;
+			path = "09-ScrollViews";
 			sourceTree = "<group>";
 		};
-		EB50F8C62E534FC10000D766 /* Grids */ = {
+		EB50F8C62E534FC10000D766 /* 10-Grids */ = {
 			isa = PBXGroup;
 			children = (
 				EB50F8CB2E53648A0000D766 /* GridsModule.swift */,
 			);
-			path = Grids;
+			path = "10-Grids";
 			sourceTree = "<group>";
 		};
-		EB893C642E59C4F900D7A35D /* NavigationStacks */ = {
+		EB893C642E59C4F900D7A35D /* 19-NavigationStacks */ = {
 			isa = PBXGroup;
 			children = (
 				EB893C652E59C51F00D7A35D /* NavigationStacksModule.swift */,
 				EB893C672E59C9B000D7A35D /* DisplayNameView.swift */,
 			);
-			path = NavigationStacks;
+			path = "19-NavigationStacks";
 			sourceTree = "<group>";
 		};
-		EB893C692E5A11EE00D7A35D /* TabViews */ = {
+		EB893C692E5A11EE00D7A35D /* 20-TabViews */ = {
 			isa = PBXGroup;
 			children = (
 				EB893C6A2E5A120E00D7A35D /* TabViewsModule.swift */,
 			);
-			path = TabViews;
+			path = "20-TabViews";
 			sourceTree = "<group>";
 		};
-		EB893C6C2E5C9EAF00D7A35D /* MVVM */ = {
+		EB893C6C2E5C9EAF00D7A35D /* 21-MVVM */ = {
 			isa = PBXGroup;
 			children = (
 				EB893C6D2E5C9F7700D7A35D /* MVVMModule.swift */,
 			);
-			path = MVVM;
+			path = "21-MVVM";
 			sourceTree = "<group>";
 		};
-		EBD31ACB2E55EF8D0046306C /* ViewExtraction */ = {
+		EBD31ACB2E55EF8D0046306C /* 14-ViewExtraction */ = {
 			isa = PBXGroup;
 			children = (
 				EBD31ACC2E55EFAE0046306C /* ViewExtractionModule.swift */,
 			);
-			path = ViewExtraction;
+			path = "14-ViewExtraction";
 			sourceTree = "<group>";
 		};
-		EBD31ACE2E55EFB80046306C /* DataModeling */ = {
+		EBD31ACE2E55EFB80046306C /* 15-DataModeling */ = {
 			isa = PBXGroup;
 			children = (
 				EBD31AD42E55F57A0046306C /* CuteMascot.swift */,
 				EBD31ACF2E55EFDB0046306C /* DataModelingModule.swift */,
 				EBD31AD62E55F8510046306C /* CuteMascotComponent.swift */,
 			);
-			path = DataModeling;
+			path = "15-DataModeling";
 			sourceTree = "<group>";
 		};
-		EBD31AD12E55EFE00046306C /* TextFields */ = {
+		EBD31AD12E55EFE00046306C /* 16-TextFields */ = {
 			isa = PBXGroup;
 			children = (
 				EBD31AD22E55EFFD0046306C /* TextFieldsModule.swift */,
 			);
-			path = TextFields;
+			path = "16-TextFields";
 			sourceTree = "<group>";
 		};
-		EBEEF9F12E520F8A00B643D1 /* Padding */ = {
+		EBEEF9F12E520F8A00B643D1 /* 06-Padding */ = {
 			isa = PBXGroup;
 			children = (
 				EBEEF9F22E520FA200B643D1 /* PaddingModule.swift */,
 			);
-			path = Padding;
+			path = "06-Padding";
 			sourceTree = "<group>";
 		};
-		EBEEF9F42E5215E500B643D1 /* Spacer */ = {
+		EBEEF9F42E5215E500B643D1 /* 07-Spacer */ = {
 			isa = PBXGroup;
 			children = (
 				EBEEF9F52E52160D00B643D1 /* SpacerModule.swift */,
 			);
-			path = Spacer;
+			path = "07-Spacer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
